@@ -1,0 +1,75 @@
+= 1.0.17 =
+* WP 4.8 compatible.
+* Fixed SSL issue arising due to incorrect loading of google.
+* Fixed escaping issues.
+
+= 1.0.16 =
+* WP 4.7.4 compatible.
+* Compatible with latest Woocommerce version.
+
+= 1.0.15 =
+* WP 4.7 compatible.
+* Updated Font Awesome v4.7.
+* Compatible with latest Woocommerce version.
+* Removed Recommended Plugins.
+
+= 1.0.14 =
+* WP 4.6.1 compatible.
+
+= 1.0.13 =
+* WP 4.6 compatible.
+* Added font-awesome icon.
+* fix menu-bar issues.
+* Fixed translation issue.
+
+= 1.0.12 =
+* Fixed implementation of title-tag and minor fixes.
+
+= 1.0.11 =
+* WP 4.3.1 compatible.
+* Implemented Customizer API for theme options.
+
+= 1.0.10 =
+* WP 4.3 compatible.
+* Fixed front page content issue.
+
+= 1.0.9 =
+* WP 4.2.4 compatible.
+* Fixed sidebar-id notice.
+* Fixed translation issue.
+
+= 1.0.8 =
+* WP 4.2.2 compatible.
+* Few changes in styling.
+
+= 1.0.7 =
+* Fixed Theme Check issue(register_post_type and screen_icon).
+* Added url escaping.
+* Fixed load unnessary scripts on other admin pages.
+
+= 1.0.6 =
+* Added Breadcrumb Settings in theme options(Breadcrumb Settings enable/disable,pagetitle color etc.)
+
+= 1.0.5 =
+* WP 3.9.1 Compatible.
+
+= 1.0.4 =
+* WP 3.8.2 compatible.
+
+= 1.0.3 =
+* WP 3.8.1 compatible.
+* few changes in styling.
+
+= 1.0.2 =
+* Fixed function invert_script_enqueqe() should be hooked to the wp_enqueue_scripts() issue.
+* Remove wp_enqueue_script('jquery') .
+* simply enqueue all css files.
+* Fixed generated PHP/Scripts Errors, Warnings, Notices.
+* Fixed upgrade notice button issue.
+* Fixed Site title issue when admin bar is active.
+
+= 1.0.1 =
+* Updated Theme url
+
+= 1.0.0 =
+* Initial release

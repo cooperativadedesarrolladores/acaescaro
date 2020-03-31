@@ -1,0 +1,257 @@
+0000.000 (0) Opened log file at time: Tue, 31 Mar 2020 03:16:52 +0000 on http://localhost/Sites/acaescaro
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.1.4 (apache2handler, Darwin MacBook-Pro-Fede.local 19.3.0 Darwin Kernel Version 19.3.0: Thu Jan  9 20:58:23 PST 2020; root:xnu-6153.81.5~1/RELEASE_X86_64 x86_64) MySQL: 5.7.19 WPLANG: es_ES Server: Apache/2.4.41 (Unix) PHP/7.1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 53.9M | 40M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 18470.4 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1584805202, seconds_ago=819410)
+0000.012 (0) Set semaphore last lock (fd) time to 2020-03-31 03:16:52
+0000.013 (0) Semaphore lock (fd) complete
+0000.017 (0) Backup run: resumption=0, nonce=1dbd4a0927d5, file_nonce=1dbd4a0927d5 begun at=1585624612 (0s ago), job type=backup
+0000.019 (0) Scheduling a resumption (1) after 300 seconds (1585624912) in case this run gets aborted
+0000.030 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.040 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.041 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.042 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.044 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.063 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.071 (0) Working binary zip found: /usr/bin/zip
+0000.073 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.074 (0) Creation of backups of directories: beginning
+0000.078 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.507 (0) Total entities for the zip file: 1000 directories, 5032 files (0 skipped as non-modified), 98.2 MB
+0000.518 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.529 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.541 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.550 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.561 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.563 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 5032 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.013 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: size is now: 2.70 MB
+0001.025 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 600 files added (on-disk size: 2771.4 KB)
+0001.033 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 700 files added (on-disk size: 2771.4 KB)
+0001.043 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 800 files added (on-disk size: 2771.4 KB)
+0001.052 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 900 files added (on-disk size: 2771.4 KB)
+0001.061 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1000 files added (on-disk size: 2771.4 KB)
+0001.063 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23.9 MB, 5032 files batched, 501 (1002) added so far); re-opening (prior size: 2771.4 KB)
+0001.943 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: size is now: 17.10 MB
+0001.955 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1100 files added (on-disk size: 17487.2 KB)
+0001.963 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1200 files added (on-disk size: 17487.2 KB)
+0001.971 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1300 files added (on-disk size: 17487.2 KB)
+0001.980 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1400 files added (on-disk size: 17487.2 KB)
+0001.991 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1500 files added (on-disk size: 17487.2 KB)
+0001.993 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (20 MB, 5032 files batched, 501 (1503) added so far); re-opening (prior size: 17487.2 KB)
+0003.416 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: size is now: 22.60 MB
+0003.426 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1600 files added (on-disk size: 23138.2 KB)
+0003.437 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1700 files added (on-disk size: 23138.2 KB)
+0003.450 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1800 files added (on-disk size: 23138.2 KB)
+0003.458 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 1900 files added (on-disk size: 23138.2 KB)
+0003.467 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2000 files added (on-disk size: 23138.2 KB)
+0003.468 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 5032 files batched, 501 (2004) added so far); re-opening (prior size: 23138.2 KB)
+0003.746 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2100 files added (on-disk size: 23693.6 KB)
+0003.762 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2200 files added (on-disk size: 23693.6 KB)
+0003.771 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2300 files added (on-disk size: 23693.6 KB)
+0003.780 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2400 files added (on-disk size: 23693.6 KB)
+0003.788 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2500 files added (on-disk size: 23693.6 KB)
+0003.790 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 5032 files batched, 501 (2505) added so far); re-opening (prior size: 23693.6 KB)
+0004.193 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2600 files added (on-disk size: 24835.6 KB)
+0004.227 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2700 files added (on-disk size: 24835.6 KB)
+0004.237 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2800 files added (on-disk size: 24835.6 KB)
+0004.247 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 2900 files added (on-disk size: 24835.6 KB)
+0004.256 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3000 files added (on-disk size: 24835.6 KB)
+0004.258 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.6 MB, 5032 files batched, 501 (3006) added so far); re-opening (prior size: 24835.6 KB)
+0005.249 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3100 files added (on-disk size: 29726.3 KB)
+0005.258 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3200 files added (on-disk size: 29726.3 KB)
+0005.267 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3300 files added (on-disk size: 29726.3 KB)
+0005.275 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3400 files added (on-disk size: 29726.3 KB)
+0005.288 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3500 files added (on-disk size: 29726.3 KB)
+0005.291 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 5032 files batched, 501 (3507) added so far); re-opening (prior size: 29726.3 KB)
+0005.749 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3600 files added (on-disk size: 31329.2 KB)
+0005.759 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3700 files added (on-disk size: 31329.2 KB)
+0005.769 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3800 files added (on-disk size: 31329.2 KB)
+0005.778 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 3900 files added (on-disk size: 31329.2 KB)
+0005.788 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4000 files added (on-disk size: 31329.2 KB)
+0005.790 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 5032 files batched, 501 (4008) added so far); re-opening (prior size: 31329.2 KB)
+0006.296 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4100 files added (on-disk size: 32832.4 KB)
+0006.312 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4200 files added (on-disk size: 32832.4 KB)
+0006.321 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4300 files added (on-disk size: 32832.4 KB)
+0006.329 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4400 files added (on-disk size: 32832.4 KB)
+0006.341 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4500 files added (on-disk size: 32832.4 KB)
+0006.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 5032 files batched, 501 (4509) added so far); re-opening (prior size: 32832.4 KB)
+0006.977 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4600 files added (on-disk size: 36385.6 KB)
+0006.987 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4700 files added (on-disk size: 36385.6 KB)
+0006.996 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4800 files added (on-disk size: 36385.6 KB)
+0007.006 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 4900 files added (on-disk size: 36385.6 KB)
+0007.016 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip.tmp: 5000 files added (on-disk size: 36385.6 KB)
+0007.019 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.4 MB, 5032 files batched, 501 (5010) added so far); re-opening (prior size: 36385.6 KB)
+0008.665 (0) Created plugins zip (0) - 39857.9 KB in 8.6 s (4642.5 KB/s) (sha1: 71a12c915ebcb593db69a1ed8655290dd57f515a, sha256: 505bfc8f2c550ca3e1daee5b193d5790c3f51863815b32ce799ebde6041dd30d)
+0008.670 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.696 (0) Total entities for the zip file: 55 directories, 204 files (0 skipped as non-modified), 4.4 MB
+0008.704 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.711 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.912 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-themes.zip.tmp: size is now: 2.40 MB
+0008.951 (0) Created themes zip (0) - 2484 KB in 0.3 s (8933.3 KB/s) (sha1: 7986ac154271145f2368b9723bf038aa4d3350e5, sha256: 3c9956ca09cadc3e3c39171cccc13307678b28c305c3196a1d2c3d9a45a2c8c0)
+0008.956 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.957 (0) Looking for candidates to backup in: /Users/Fede/Sites/acaescaro/wp-content/uploads
+0008.959 (0) finding files: 2013: adding to list (1)
+0008.960 (0) finding files: elementor: adding to list (2)
+0008.961 (0) finding files: 2019: adding to list (3)
+0008.962 (0) finding files: 2020: adding to list (4)
+0008.964 (0) finding files: 2018: adding to list (5)
+0008.965 (0) finding files: essential-addons-elementor: adding to list (6)
+0008.966 (0) finding files: futurio-files: adding to list (7)
+0008.967 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.014 (0) Total entities for the zip file: 26 directories, 665 files (0 skipped as non-modified), 48.8 MB
+0009.024 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.034 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.043 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.050 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 665 files batched, 385 (385) added so far); re-opening (prior size: 0 KB)
+0009.257 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: size is now: 25.50 MB
+0009.306 (0) A useful amount of data was added after this amount of zip processing: 0.4 s (normalised: 0.4 s, rate: 64810.3 KB/s)
+0009.309 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.40245795249939, normalised_time=0.39499874688481, max_time=9.3077068328857, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0009.318 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 400 files added (on-disk size: 26148.6 KB)
+0009.340 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 500 files added (on-disk size: 26148.6 KB)
+0009.350 (0) Zip: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: 600 files added (on-disk size: 26148.6 KB)
+0009.675 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip.tmp: size is now: 48.70 MB
+0010.298 (0) Created uploads zip (0) - 49840.5 KB in 1.3 s (37504.1 KB/s) (sha1: dac75b1f84b2cccbeb8b65ce1a7b3d47ef85a5c3, sha256: 74bad60c4d61304bbfa67b2c20c15a6dfb17137d1c12432f29ed3b4f8d155f25)
+0010.304 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.306 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.307 (0) Looking for candidates to backup in: /Users/Fede/Sites/acaescaro/wp-content
+0010.308 (0) finding files: upgrade: skipping: excluded by options
+0010.309 (0) finding files: index.php: adding to list (1)
+0010.310 (0) finding files: plugins: skipping: this is the plugins directory
+0010.311 (0) finding files: uploads: skipping: this is the uploads directory
+0010.312 (0) finding files: updraft: skipping: this is the updraft directory
+0010.313 (0) finding files: advanced-cache.php: adding to list (2)
+0010.314 (0) finding files: languages: adding to list (3)
+0010.314 (0) finding files: wp-cache-config.php: adding to list (4)
+0010.316 (0) finding files: themes: skipping: this is the themes directory
+0010.325 (0) Total entities for the zip file: 3 directories, 89 files (0 skipped as non-modified), 7.6 MB
+0010.805 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-others.zip.tmp: size is now: 2.20 MB
+0010.841 (0) Created others zip (0) - 2223.2 KB in 0.5 s (4255 KB/s) (sha1: 2c6c8997a899d8e4a952ad04836ad34e12db38d9, sha256: 6c5e27d0d6ebccdb9753b40d31c647e012c719efc4a28afb7a275cc414823d8c)
+0010.848 (0) Saving backup status to database (elements: 8)
+0010.851 (0) Beginning creation of database dump (WordPress DB)
+0010.862 (0) Table wp_options: Total expected rows (approximate): 381
+0010.906 (0) Table wp_options: Total rows added: 377 in 0.04 seconds
+0010.909 (0) Table wp_options: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_options.table.gz - 88.7 KB)
+0010.913 (0) Table wp_users: Total expected rows (approximate): 3
+0010.916 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0010.917 (0) Table wp_users: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_users.table.gz - 0.7 KB)
+0010.922 (0) Table wp_usermeta: Total expected rows (approximate): 75
+0010.925 (0) Table wp_usermeta: Total rows added: 75 in 0.00 seconds
+0010.926 (0) Table wp_usermeta: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_usermeta.table.gz - 2.4 KB)
+0010.930 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.933 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.934 (0) Table wp_commentmeta: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_commentmeta.table.gz - 0.3 KB)
+0010.938 (0) Table wp_comments: Total expected rows (approximate): 79
+0010.945 (0) Table wp_comments: Total rows added: 79 in 0.01 seconds
+0010.947 (0) Table wp_comments: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_comments.table.gz - 8.2 KB)
+0010.951 (0) Table wp_links: Total expected rows (approximate): 0
+0010.953 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0010.955 (0) Table wp_links: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_links.table.gz - 0.4 KB)
+0010.959 (0) Table wp_postmeta: Total expected rows (approximate): 866
+0010.999 (0) Table wp_postmeta: Total rows added: 866 in 0.04 seconds
+0011.001 (0) Table wp_postmeta: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_postmeta.table.gz - 62.2 KB)
+0011.005 (0) Table wp_posts: Total expected rows (approximate): 197
+0011.039 (0) Table wp_posts: Total rows added: 197 in 0.03 seconds
+0011.041 (0) Table wp_posts: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_posts.table.gz - 37.6 KB)
+0011.046 (0) Table wp_term_relationships: Total expected rows (approximate): 63
+0011.049 (0) Table wp_term_relationships: Total rows added: 63 in 0.00 seconds
+0011.051 (0) Table wp_term_relationships: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0011.055 (0) Table wp_term_taxonomy: Total expected rows (approximate): 64
+0011.059 (0) Table wp_term_taxonomy: Total rows added: 64 in 0.00 seconds
+0011.060 (0) Table wp_term_taxonomy: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_term_taxonomy.table.gz - 0.8 KB)
+0011.065 (0) Table wp_termmeta: Total expected rows (approximate): 22
+0011.068 (0) Table wp_termmeta: Total rows added: 22 in 0.00 seconds
+0011.069 (0) Table wp_termmeta: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_termmeta.table.gz - 0.5 KB)
+0011.073 (0) Table wp_terms: Total expected rows (approximate): 64
+0011.076 (0) Table wp_terms: Total rows added: 64 in 0.00 seconds
+0011.077 (0) Table wp_terms: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_terms.table.gz - 1 KB)
+0011.081 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0011.084 (0) Table wp_duplicator_packages: Total rows added: 0 in 0.00 seconds
+0011.085 (0) Table wp_duplicator_packages: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_duplicator_packages.table.gz - 0.4 KB)
+0011.089 (0) Table wp_icl_string_translations: Total expected rows (approximate): 3386
+0011.197 (0) Table wp_icl_string_translations: Total rows added: 3386 in 0.11 seconds
+0011.199 (0) Table wp_icl_string_translations: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_icl_string_translations.table.gz - 67.7 KB)
+0011.203 (0) Table wp_icl_strings: Total expected rows (approximate): 1700
+0011.258 (0) Table wp_icl_strings: Total rows added: 1700 in 0.05 seconds
+0011.259 (0) Table wp_icl_strings: finishing file (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_icl_strings.table.gz - 62.8 KB)
+0011.264 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_options.table.gz (1/15): adding to final database dump
+0011.287 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_users.table.gz (2/15): adding to final database dump
+0011.289 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+0011.291 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+0011.292 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_comments.table.gz (5/15): adding to final database dump
+0011.296 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_links.table.gz (6/15): adding to final database dump
+0011.298 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+0011.323 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_posts.table.gz (8/15): adding to final database dump
+0011.336 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+0011.338 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+0011.339 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+0011.341 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_terms.table.gz (12/15): adding to final database dump
+0011.342 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_duplicator_packages.table.gz (13/15): adding to final database dump
+0011.343 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_icl_string_translations.table.gz (14/15): adding to final database dump
+0011.373 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db-table-wp_icl_strings.table.gz (15/15): adding to final database dump
+0011.395 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db.gz: finished writing out complete database file (312 KB)
+0011.407 (0) Total database tables backed up: 15 (backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db.gz, size: 339529, sha1: cfb1e62be6b6b9f74719760d3d61b0a829cd05c6, sha256: f51750a0de682c284944d2de97511e01024ea732fd395dea2d0237e198ad67ec)
+0011.414 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.415 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.416 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.417 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.418 (0) backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.419 (0) Saving backup history. Total backup size: 92.5 MB
+0011.422 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.425 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.426 (0) No remote despatch: user chose no remote backup service
+0011.427 (0) Recording as successfully uploaded: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-plugins.zip
+0011.429 (0) Recording as successfully uploaded: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-themes.zip
+0011.431 (0) Recording as successfully uploaded: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-uploads.zip
+0011.435 (0) Recording as successfully uploaded: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-others.zip
+0011.437 (0) Recording as successfully uploaded: backup_2020-03-31-0316_acaescaro_1dbd4a0927d5-db.gz
+0011.440 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.442 (0) Number of backup sets in history: 4; groups (db): 1
+0011.443 (0) Examining (for databases) backup set with group_id=0, nonce=1dbd4a0927d5, datestamp=1585624612 (Mar 31 2020 03:16:52)
+0011.444 (0) This backup set is the backup set just made, so will not be deleted.
+0011.444 (0) Examining (for databases) backup set with group_id=0, nonce=183abbe6289d, datestamp=1584805202 (Mar 21 2020 15:40:02)
+0011.444 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.445 (0) Examining (for databases) backup set with group_id=0, nonce=ead011618e0a, datestamp=1584199937 (Mar 14 2020 15:32:17)
+0011.446 (0) 1584199937: db: this set includes a database (backup_2020-03-14-1532_fedeappcom_ead011618e0a-db.gz); db count is now 2
+0011.446 (0) 1584199937: db: over retain limit (2); will delete this database
+0011.446 (0) Delete file: backup_2020-03-14-1532_fedeappcom_ead011618e0a-db.gz, service=none
+0011.448 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0011.449 (0) Examining (for databases) backup set with group_id=0, nonce=4fe3c0b58246, datestamp=1564846083 (Aug 03 2019 15:28:03)
+0011.449 (0) This backup set (1564846083) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0011.449 (0) Number of backup sets in history: 4; groups (files): 1
+0011.451 (0) Examining (for files) backup set with nonce=1dbd4a0927d5, datestamp=1585624612 (Mar 31 2020 03:16:52)
+0011.451 (0) This backup set is the backup set just made, so will not be deleted.
+0011.452 (0) This backup set is the backup set just made, so will not be deleted.
+0011.452 (0) This backup set is the backup set just made, so will not be deleted.
+0011.452 (0) This backup set is the backup set just made, so will not be deleted.
+0011.453 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.454 (0) Examining (for files) backup set with nonce=183abbe6289d, datestamp=1584805202 (Mar 21 2020 15:40:02)
+0011.454 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.455 (0) Examining (for files) backup set with nonce=ead011618e0a, datestamp=1584199937 (Mar 14 2020 15:32:17)
+0011.455 (0) plugins: over retain limit (2); will delete this file entity
+0011.455 (0) themes: over retain limit (2); will delete this file entity
+0011.455 (0) uploads: over retain limit (2); will delete this file entity
+0011.455 (0) others: over retain limit (2); will delete this file entity
+0011.455 (0) Delete file: backup_2020-03-14-1532_fedeappcom_ead011618e0a-plugins.zip, service=none
+0011.456 (0) Delete file: backup_2020-03-14-1532_fedeappcom_ead011618e0a-themes.zip, service=none
+0011.457 (0) Delete file: backup_2020-03-14-1532_fedeappcom_ead011618e0a-uploads.zip, service=none
+0011.458 (0) Delete file: backup_2020-03-14-1532_fedeappcom_ead011618e0a-others.zip, service=none
+0011.460 (0) This backup set is now empty; will remove from history
+0011.461 (0) Corresponding log file (log.ead011618e0a.txt) not found - must have already been deleted
+0011.462 (0) Examining (for files) backup set with nonce=4fe3c0b58246, datestamp=1564846083 (Aug 03 2019 15:28:03)
+0011.463 (0) This backup set (1564846083) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0011.463 (0) This backup set (1564846083) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0011.463 (0) This backup set (1564846083) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0011.463 (0) This backup set (1564846083) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0011.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.464 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0011.467 (0) Resume backup (1dbd4a0927d5, 0): finish run
+0011.469 (0) Decremented the semaphore (fd) by 1
+0011.470 (0) Semaphore (fd) unlocked
+0011.472 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.475 (0) The backup apparently succeeded and is now complete
+0011.476 (0) No email will/can be sent - the user has not configured an email address.
+0011.477 (0) El respaldo parece haber tenido éxito y ahora está completado

@@ -1,0 +1,45 @@
+
+---Downloaded files---
+The import files for: Startup were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/Sites/acaescaro
+Data file = /Users/Fede/Sites/acaescaro/wp-content/uploads/2020/03/demo-content-import-file_2020-03-31__03-36-30.xml
+Widget file = /Users/Fede/Sites/acaescaro/wp-content/uploads/2020/03/demo-widgets-import-file_2020-03-31__03-36-30.json
+Customizer file = /Users/Fede/Sites/acaescaro/wp-content/uploads/2020/03/demo-customizer-import-file_2020-03-31__03-36-30.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Barra lateral : 
+
+Buscar - No Title - Imported
+Entradas recientes - No Title - Imported
+Comentarios recientes - No Title - Imported
+Archivos - No Title - Imported
+Categorías - No Title - Imported
+Meta - No Title - Imported
+
+Pie de página 1 : 
+
+Texto - No Title - Imported
+
+Pie de página 2 : 
+
+Texto - Contact us - Imported
+
+Pie de página 3 : 
+
+Menú de navegación - Quick links - Imported
+
+Pie de página 4 : 
+
+Airi: perfil social - Follow us - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

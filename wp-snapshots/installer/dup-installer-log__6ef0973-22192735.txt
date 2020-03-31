@@ -1,0 +1,569 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:14:54
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.14                                |7.1.4
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2020-03-22 19:27:35
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.6.46
+DB TABLES___________: 15
+DB ROWS_____________: 6,915
+DB FILE SIZE________: 3.71MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.4 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Unix) PHP/7.1.4
+DOC ROOT____________: "/Users/Fede/Sites/acaescaro"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Sites/acaescaro/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190807_fedeappcom_para_coopdedeorg_6ef0973d8ac5f6127838_20200322192735_archive.zip"
+SIZE________________: 256.76MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Users/Fede/Sites/acaescaro/20190807_fedeappcom_para_coopdedeorg_6ef0973d8ac5f6127838_20200322192735_archive.zip' -d '/Users/Fede/Sites/acaescaro' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Users/Fede/Sites/acaescaro/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:479]
+Permissions setting on file '/Users/Fede/Sites/acaescaro/20190807_fedeappcom_para_coopdedeorg_6ef0973d8ac5f6127838_20200322192735_archive.zip' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Users/Fede/Sites/acaescaro/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:479]
+Permissions setting on file '/Users/Fede/Sites/acaescaro/.DS_Store' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Users/Fede/Sites/acaescaro/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:479]
+Permissions setting on file '/Users/Fede/Sites/acaescaro/installer.php' failed
+
+STEP-1 COMPLETE @ 03:15:19 - RUNTIME: 25.4767 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:15:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.19 -- Build Server: 5.6.46
+FILE SIZE:	dup-database__6ef0973-22192735.sql (3.22MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/Fede/Sites/acaescaro/dup-installer/dup-installer-data__6ef0973-22192735.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	6934
+
+wp_commentmeta: (0)
+wp_comments: (79)
+wp_duplicator_packages: (0)
+wp_icl_string_translations: (3386)
+wp_icl_strings: (1700)
+wp_links: (0)
+wp_options: (371)
+wp_postmeta: (866)
+wp_posts: (198)
+wp_term_relationships: (63)
+wp_term_taxonomy: (64)
+wp_termmeta: (22)
+wp_terms: (64)
+wp_usermeta: (75)
+wp_users: (3)
+Removed '25' cache/transient rows
+
+INSERT DATA RUNTIME: 1.5500 sec.
+STEP-2 COMPLETE @ 03:15:37 - RUNTIME: 1.5657 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:16:37
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "acaescaro"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/c1730520/public_html"
+path_new______________: "/Users/Fede/Sites/acaescaro"
+siteurl_______________: "http://localhost/Sites/acaescaro"
+url_old_______________: "http://fedeapp.com"
+url_new_______________: "http://localhost/Sites/acaescaro"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "acaescaro"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "admin"
+wp_mail_______________: "fede@coopdede.org"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:  3386][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:  1700][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   371][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   866][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   198][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    75][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/c1730520/public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  2:"\/home\/c1730520\/public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  3:"%2Fhome%2Fc1730520%2Fpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  4:"\home\c1730520\public_html" ======================> "/Users/Fede/Sites/acaescaro"
+	SEARCH  5:"\\home\\c1730520\\public_html" ===================> "\/Users\/Fede\/Sites\/acaescaro"
+	SEARCH  6:"%5Chome%5Cc1730520%5Cpublic_html" ================> "%2FUsers%2FFede%2FSites%2Facaescaro"
+	SEARCH  7:"//fedeapp.com" ===================================> "//localhost/Sites/acaescaro"
+	SEARCH  8:"\/\/fedeapp.com" =================================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH  9:"%2F%2Ffedeapp.com" ===============================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 10:"//www.fedeapp.com" ===============================> "//localhost/Sites/acaescaro"
+	SEARCH 11:"\/\/www.fedeapp.com" =============================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 12:"%2F%2Fwww.fedeapp.com" ===========================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 13:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 14:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 16:"//c1730520.ferozo.com" ===========================> "//localhost/Sites/acaescaro"
+	SEARCH 17:"\/\/c1730520.ferozo.com" =========================> "\/\/localhost\/Sites\/acaescaro"
+	SEARCH 18:"%2F%2Fc1730520.ferozo.com" =======================> "%2F%2Flocalhost%2FSites%2Facaescaro"
+	SEARCH 19:"https://localhost/Sites/acaescaro" ===============> "http://localhost/Sites/acaescaro"
+	SEARCH 20:"https:\/\/localhost\/Sites\/acaescaro" ===========> "http:\/\/localhost\/Sites\/acaescaro"
+	SEARCH 21:"https%3A%2F%2Flocalhost%2FSites%2Facaescaro" =====> "http%3A%2F%2Flocalhost%2FSites%2Facaescaro"
+--------------------------------------
+SCANNED:	Tables:15 	|	 Rows:6891 	|	 Cells:45836 
+UPDATED:	Tables:4 	|	 Rows:279 	|	 Cells:343 
+ERRORS:		0 
+RUNTIME:	1.320800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost/Sites/acaescaro"
+	UPDATE WP_SITEURL "http://localhost/Sites/acaescaro"
+	UPDATE DB_NAME ""acaescaro""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__6ef0973-22192735' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:16:38 - RUNTIME: 1.3919 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'admin' already exists in the database.  Unable to create new account.
+
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

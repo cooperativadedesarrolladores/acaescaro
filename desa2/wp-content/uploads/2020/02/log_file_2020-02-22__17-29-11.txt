@@ -1,0 +1,45 @@
+
+---Downloaded files---
+The import files for: Agency were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://desa2.fedeapp.com
+Data file = /home/c1730520/public_html/desa2/wp-content/uploads/2020/02/demo-content-import-file_2020-02-22__17-29-11.xml
+Widget file = /home/c1730520/public_html/desa2/wp-content/uploads/2020/02/demo-widgets-import-file_2020-02-22__17-29-11.json
+Customizer file = /home/c1730520/public_html/desa2/wp-content/uploads/2020/02/demo-customizer-import-file_2020-02-22__17-29-11.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Barra lateral : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Widget already exists
+Comentarios recientes - No Title - Widget already exists
+Archivos - No Title - Widget already exists
+Categorías - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Pie de página 1 : 
+
+Texto - No Title - Imported
+
+Pie de página 2 : 
+
+Texto - Contact us - Imported
+
+Pie de página 3 : 
+
+Menú de navegación - Quick links - Imported
+
+Pie de página 4 : 
+
+Airi: perfil social - Follow us - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

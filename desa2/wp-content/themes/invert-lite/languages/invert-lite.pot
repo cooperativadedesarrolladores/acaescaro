@@ -1,0 +1,1320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Invert Lite v1.0.11\n"
+"POT-Creation-Date: 2015-10-09 17:58+0530\n"
+"PO-Revision-Date: 2015-10-09 17:59+0530\n"
+"Last-Translator: \n"
+"Language-Team: Sketchthemes <info@sketchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:14
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Not Found"
+
+#: ../404.php:27
+msgid "We bet this is not what you expected to see here!"
+msgstr "We bet this is not what you expected to see here!"
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:16
+msgid "Home"
+msgstr "Home"
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:93
+msgid "Author"
+msgstr "Author"
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:97
+msgid "Tag"
+msgstr "Tag"
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:101
+msgid "Search"
+msgstr "Search"
+
+#: ../SketchBoard/functions/sketch-breadcrumb.php:102
+msgid "Error 404"
+msgstr "Error 404"
+
+#: ../SketchBoard/functions/sketch-functions.php:35
+msgid "Author: "
+msgstr "Author: "
+
+#: ../SketchBoard/functions/sketch-functions.php:119
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: ../SketchBoard/functions/sketch-functions.php:120
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: ../archive.php:27
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:29
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:31
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:33
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: ../archive.php:58 ../author.php:39 ../category.php:39 ../index.php:38
+#: ../search.php:37 ../tag.php:42
+msgid "&larr;Previous"
+msgstr "&larr;Previous"
+
+#: ../archive.php:59 ../author.php:40 ../category.php:42 ../index.php:39
+#: ../search.php:38 ../tag.php:43
+msgid "Next&rarr;"
+msgstr "Next&rarr;"
+
+#: ../author.php:17
+msgid "Author Archives: "
+msgstr "Author Archives: "
+
+#: ../category.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:17
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "This post is password protected. Enter the password to view comments."
+
+#: ../comments.php:25
+msgid "No Comment"
+msgstr "No Comment"
+
+#: ../comments.php:25
+msgid "One Comment"
+msgstr "One Comment"
+
+#: ../comments.php:25
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:25
+msgid " so far:"
+msgstr " so far:"
+
+#: ../comments.php:40
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: ../content-none.php:12
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: ../content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+
+#: ../content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+
+#: ../content.php:22 ../single.php:58
+msgid "On"
+msgstr "On"
+
+#: ../content.php:22 ../content.php:23 ../content.php:24 ../single.php:58
+#: ../single.php:59 ../single.php:60
+msgid ","
+msgstr ""
+
+#: ../content.php:23 ../single.php:59
+msgid "Posted by "
+msgstr "Posted by "
+
+#: ../content.php:24 ../single.php:60
+msgid "In "
+msgstr "In "
+
+#: ../content.php:26 ../single.php:62
+msgid "With "
+msgstr "With "
+
+#: ../content.php:26 ../single.php:62
+msgid "No Comments "
+msgstr "No Comments "
+
+#: ../content.php:26 ../single.php:62
+msgid "1 Comment "
+msgstr "1 Comment "
+
+#: ../content.php:26 ../single.php:62
+msgid "% Comments "
+msgstr ""
+
+#: ../content.php:32 ../page.php:41 ../single.php:68
+#: ../template-fullwidth.php:33 ../template-left-sidebar.php:42
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: ../content.php:32 ../page.php:41 ../single.php:68
+#: ../template-fullwidth.php:33 ../template-left-sidebar.php:42
+msgid "number"
+msgstr "number"
+
+#: ../content.php:33 ../invert-front-page.php:61
+msgid "Read More &rarr;"
+msgstr "Read More &rarr;"
+
+#: ../footer.php:27 ../includes/customizer.php:603
+msgid "Proudly Powered by WordPress"
+msgstr "Proudly Powered by WordPress"
+
+#: ../footer.php:28
+msgid "Invert Theme by"
+msgstr "Invert Theme by"
+
+#: ../footer.php:28
+msgid "SketchThemes"
+msgstr "SketchThemes"
+
+#: ../functions.php:29
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../functions.php:38
+msgid "Footer Sidebar"
+msgstr "Footer Sidebar"
+
+#: ../functions.php:111
+msgid "Main Navigation"
+msgstr "Main Navigation"
+
+#: ../functions.php:138
+msgid "Untitled"
+msgstr "Untitled"
+
+#: ../includes/customizer.php:18
+msgid "Home Page Settings"
+msgstr "Untitled"
+
+#: ../includes/customizer.php:29
+msgid "Home Featured Box"
+msgstr "Home Featured Box"
+
+#: ../includes/customizer.php:33
+msgid "Home Call to Action"
+msgstr "Home Call to Action"
+
+#: ../includes/customizer.php:37
+msgid "Home Parallax"
+msgstr "Home Parallax"
+
+#: ../includes/customizer.php:41
+msgid "Home Blogs"
+msgstr "Home Blogs"
+
+#: ../includes/customizer.php:45
+msgid "Home Clients Logo"
+msgstr "Home Clients Logo"
+
+#: ../includes/customizer.php:51
+msgid "Breadcrumb Settings"
+msgstr "Breadcrumb Settings"
+
+#: ../includes/customizer.php:56
+msgid "Footer Settings"
+msgstr "Footer Settings"
+
+#: ../includes/customizer.php:70
+msgid "Choose Theme Color"
+msgstr "Choose Theme Color"
+
+#: ../includes/customizer.php:79
+msgid "Sticky Header Background Color"
+msgstr "Sticky Header Background Color"
+
+#: ../includes/customizer.php:88
+msgid "Navigation Font Color"
+msgstr "Navigation Font Color"
+
+#: ../includes/customizer.php:99
+msgid "Logo Image"
+msgstr "Logo Image"
+
+#: ../includes/customizer.php:114
+msgid "Feature Section ON/OFF"
+msgstr "Feature Section ON/OFF"
+
+#: ../includes/customizer.php:116 ../includes/customizer.php:256
+#: ../includes/customizer.php:306 ../includes/customizer.php:340
+#: ../includes/customizer.php:373 ../includes/customizer.php:548
+#: ../includes/customizer.php:635
+msgid "ON"
+msgstr "ON"
+
+#: ../includes/customizer.php:117 ../includes/customizer.php:257
+#: ../includes/customizer.php:307 ../includes/customizer.php:341
+#: ../includes/customizer.php:374 ../includes/customizer.php:549
+#: ../includes/customizer.php:636
+msgid "OFF"
+msgstr "OFF"
+
+#: ../includes/customizer.php:123 ../includes/front-mid-box.php:9
+#: ../includes/front-mid-box.php:17
+msgid "Business Strategy"
+msgstr "Business Strategy"
+
+#: ../includes/customizer.php:127
+msgid "First Featured Box Heading"
+msgstr "First Featured Box Heading"
+
+#: ../includes/customizer.php:136
+msgid "First Featured Box Image"
+msgstr "First Featured Box Image"
+
+#: ../includes/customizer.php:137 ../includes/customizer.php:178
+#: ../includes/customizer.php:219
+msgid "Recomended size 150x150 px."
+msgstr "Recomended size 150x150 px."
+
+#: ../includes/customizer.php:142 ../includes/front-mid-box.php:18
+msgid ""
+"Get focused from your target consumers and increase your business with Web "
+"portal Design and Development."
+msgstr ""
+"Get focused from your target consumers and increase your business with Web "
+"portal Design and Development."
+
+#: ../includes/customizer.php:147
+msgid "First Featured Box Content"
+msgstr "First Featured Box Content"
+
+#: ../includes/customizer.php:157
+msgid "First Featured Box Link"
+msgstr "First Featured Box Link"
+
+#: ../includes/customizer.php:164 ../includes/front-mid-box.php:29
+#: ../includes/front-mid-box.php:35
+msgid "Quality Products"
+msgstr "Quality Products"
+
+#: ../includes/customizer.php:168
+msgid "Second Featured Box Heading"
+msgstr "Second Featured Box Heading"
+
+#: ../includes/customizer.php:177
+msgid "Second Featured Box Image"
+msgstr "Second Featured Box Image"
+
+#: ../includes/customizer.php:183 ../includes/front-mid-box.php:36
+msgid ""
+"Products with the ultimate features and functionality that provide the "
+"complete satisfaction to the clients."
+msgstr ""
+"Products with the ultimate features and functionality that provide the "
+"complete satisfaction to the clients."
+
+#: ../includes/customizer.php:188
+msgid "Second Featured Box Content"
+msgstr "Second Featured Box Content"
+
+#: ../includes/customizer.php:198
+msgid "Second Featured Box Link"
+msgstr "Second Featured Box Link"
+
+#: ../includes/customizer.php:205 ../includes/front-mid-box.php:47
+#: ../includes/front-mid-box.php:53
+msgid "Best Business Plans"
+msgstr "Best Business Plans"
+
+#: ../includes/customizer.php:209
+msgid "Third Featured Box Heading"
+msgstr "Third Featured Box Heading"
+
+#: ../includes/customizer.php:218
+msgid "Third Featured Box Image"
+msgstr "Third Featured Box Image"
+
+#: ../includes/customizer.php:224 ../includes/front-mid-box.php:54
+msgid ""
+"Based on the client requirement, different business plans suits and fulfill "
+"your business and cost requirement."
+msgstr ""
+"Based on the client requirement, different business plans suits and fulfill "
+"your business and cost requirement."
+
+#: ../includes/customizer.php:229
+msgid "Third Featured Box Content"
+msgstr ""
+"Based on the client requirement, different business plans suits and fulfill "
+"your business and cost requirement."
+
+#: ../includes/customizer.php:239
+msgid "Third Featured Box Link"
+msgstr "Third Featured Box Link"
+
+#: ../includes/customizer.php:252
+msgid "Home Call to Action ON/OFF"
+msgstr "Home Call to Action ON/OFF"
+
+#: ../includes/customizer.php:261 ../invert-front-page.php:88
+msgid "JOIN THE ULTIMATE AND IRREPLACEABLE EXPERIENCE NOW."
+msgstr "JOIN THE ULTIMATE AND IRREPLACEABLE EXPERIENCE NOW."
+
+#: ../includes/customizer.php:265
+msgid "Call to Action Box Heading"
+msgstr "Call to Action Box Heading"
+
+#: ../includes/customizer.php:269 ../invert-front-page.php:89
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat "
+"malesuada urna, non fringilla purus malesuada eget."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat "
+"malesuada urna, non fringilla purus malesuada eget."
+
+#: ../includes/customizer.php:274
+msgid "Call to Action Box Content"
+msgstr "Call to Action Box Content"
+
+#: ../includes/customizer.php:278 ../invert-front-page.php:93
+msgid "Sign-Up Now"
+msgstr "Sign-Up Now"
+
+#: ../includes/customizer.php:282
+msgid "Call to Action Button Text"
+msgstr "Call to Action Button Text"
+
+#: ../includes/customizer.php:290
+msgid "Call to Action Button Link"
+msgstr "Call to Action Button Link"
+
+#: ../includes/customizer.php:304
+msgid "Parallax Section ON/OFF"
+msgstr "Parallax Section ON/OFF"
+
+#: ../includes/customizer.php:315
+msgid "Home Parallax Image"
+msgstr "Home Parallax Image"
+
+#: ../includes/customizer.php:319 ../invert-front-page.php:15
+msgid "Awesome Parallax Section"
+msgstr "Awesome Parallax Section"
+
+#: ../includes/customizer.php:319 ../invert-front-page.php:15
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. onec consequat "
+"malesuada urna, non fringilla purus malesuada eget.Lorem ipsum dolor sit "
+"amet, consectetur adipiscing elit. onec consequat malesuada urna, non "
+"fringilla purus malesuada eget.Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. onec consequat malesuada urna, non fringilla purus "
+"malesuada eget."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. onec consequat "
+"malesuada urna, non fringilla purus malesuada eget.Lorem ipsum dolor sit "
+"amet, consectetur adipiscing elit. onec consequat malesuada urna, non "
+"fringilla purus malesuada eget.Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. onec consequat malesuada urna, non fringilla purus "
+"malesuada eget."
+
+#: ../includes/customizer.php:319 ../invert-front-page.php:15
+msgid "Demo"
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. onec consequat "
+"malesuada urna, non fringilla purus malesuada eget.Lorem ipsum dolor sit "
+"amet, consectetur adipiscing elit. onec consequat malesuada urna, non "
+"fringilla purus malesuada eget.Lorem ipsum dolor sit amet, consectetur "
+"adipiscing elit. onec consequat malesuada urna, non fringilla purus "
+"malesuada eget."
+
+#: ../includes/customizer.php:324
+msgid "Home Parallax Content"
+msgstr "Home Parallax Content"
+
+#: ../includes/customizer.php:336
+msgid "Home Blogs ON/OFF"
+msgstr "Home Blogs ON/OFF"
+
+#: ../includes/customizer.php:345 ../invert-front-page.php:39
+msgid "Latest News"
+msgstr "Latest News"
+
+#: ../includes/customizer.php:349
+msgid "Home Blogs Title"
+msgstr "Home Blogs Title"
+
+#: ../includes/customizer.php:354
+msgid "6"
+msgstr "6"
+
+#: ../includes/customizer.php:358
+msgid "Number Of Blogs"
+msgstr "Number Of Blogs"
+
+#: ../includes/customizer.php:369
+msgid "Our Clients Section ON/OFF"
+msgstr "Our Clients Section ON/OFF"
+
+#: ../includes/customizer.php:378 ../invert-front-page.php:108
+msgid "Our Partners"
+msgstr "Our Partners"
+
+#: ../includes/customizer.php:382
+msgid "Client Section Title"
+msgstr "Client Section Title"
+
+#: ../includes/customizer.php:388
+msgid "First Client Name"
+msgstr "First Client Name"
+
+#: ../includes/customizer.php:392
+msgid "First Client Title"
+msgstr "First Client Title"
+
+#: ../includes/customizer.php:401
+msgid "First Client Link"
+msgstr "First Client Link"
+
+#: ../includes/customizer.php:410
+msgid "First Client Logo Image"
+msgstr "First Client Logo Image"
+
+#: ../includes/customizer.php:416
+msgid "Second Client Name"
+msgstr "Second Client Name"
+
+#: ../includes/customizer.php:420
+msgid "Second Client Title"
+msgstr "Second Client Title"
+
+#: ../includes/customizer.php:429
+msgid "Second Client Link"
+msgstr "Second Client Link"
+
+#: ../includes/customizer.php:438
+msgid "Second Client Logo Image"
+msgstr "Second Client Logo Image"
+
+#: ../includes/customizer.php:444
+msgid "Third Client Name"
+msgstr "Third Client Name"
+
+#: ../includes/customizer.php:448
+msgid "Third Client Title"
+msgstr "Third Client Title"
+
+#: ../includes/customizer.php:457
+msgid "Third Client Link"
+msgstr "Third Client Link"
+
+#: ../includes/customizer.php:466
+msgid "Third Client Logo Image"
+msgstr "Third Client Logo Image"
+
+#: ../includes/customizer.php:472
+msgid "Fourth Client Name"
+msgstr "Fourth Client Name"
+
+#: ../includes/customizer.php:476
+msgid "Fourth Client Title"
+msgstr "Fourth Client Title"
+
+#: ../includes/customizer.php:485
+msgid "Fourth Client Link"
+msgstr "Fourth Client Link"
+
+#: ../includes/customizer.php:494
+msgid "Fourth Client Logo Image"
+msgstr "Fourth Client Logo Image"
+
+#: ../includes/customizer.php:500
+msgid "Fifth Client Name"
+msgstr "Fifth Client Name"
+
+#: ../includes/customizer.php:504
+msgid "Fifth Client Title"
+msgstr "Fifth Client Title"
+
+#: ../includes/customizer.php:513
+msgid "Fifth Client Link"
+msgstr "Fifth Client Link"
+
+#: ../includes/customizer.php:522
+msgid "Fifth Client Logo Image"
+msgstr "Fifth Client Logo Image"
+
+#: ../includes/customizer.php:531 ../index.php:21
+msgid "Blog"
+msgstr "Blog"
+
+#: ../includes/customizer.php:535
+msgid "Posts page Title"
+msgstr "Posts page Title"
+
+#: ../includes/customizer.php:544
+msgid "Custom Pagination ON/OFF"
+msgstr "Custom Pagination ON/OFF"
+
+#: ../includes/customizer.php:562
+msgid "Breadcrumb Section ON/OFF"
+msgstr "Breadcrumb Section ON/OFF"
+
+#: ../includes/customizer.php:575
+msgid "Breadcrumb Text Color"
+msgstr "Breadcrumb Text Color"
+
+#: ../includes/customizer.php:584
+msgid "Breadcrumb Background Color"
+msgstr "Breadcrumb Background Color"
+
+#: ../includes/customizer.php:593
+msgid "Breadcrumb Background Image"
+msgstr "Breadcrumb Background Image"
+
+#: ../includes/customizer.php:594
+msgid "size: 1600px by 180px"
+msgstr "size: 1600px by 180px"
+
+#: ../includes/customizer.php:608
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: ../includes/customizer.php:609
+msgid "You can use HTML for links etc.."
+msgstr "You can use HTML for links etc.."
+
+#: ../includes/invert-options-migrate.php:100
+msgid "All the settings migrated successfully."
+msgstr "All the settings migrated successfully."
+
+#: ../includes/invert-options-migrate.php:109
+msgid "Invert Migrate Options"
+msgstr "Invert Migrate Options"
+
+#: ../includes/invert-options-migrate.php:113
+msgid "Migrate Settings to Customizer"
+msgstr "Migrate Settings to Customizer"
+
+#: ../includes/invert-options-migrate.php:114
+msgid ""
+"As per the new WordPress guidelines it is required to use the Customizer for "
+"implementing theme options."
+msgstr ""
+"As per the new WordPress guidelines it is required to use the Customizer for "
+"implementing theme options."
+
+#: ../includes/invert-options-migrate.php:115
+msgid "So, click on this button to migrate all data from previous version."
+msgstr "So, click on this button to migrate all data from previous version."
+
+#: ../includes/invert-options-migrate.php:116
+msgid ""
+"Note: only click this option once immidiatly after upgrade. Do not press "
+"back or refresh button while migrating..."
+msgstr ""
+"Note: only click this option once immidiatly after upgrade. Do not press "
+"back or refresh button while migrating..."
+
+#: ../includes/invert-options-migrate.php:117
+msgid "Migrate to Customizer"
+msgstr "Migrate to Customizer"
+
+#: ../includes/invert-options-migrate.php:122
+msgid "Loading"
+msgstr "Loading"
+
+#: ../includes/sketchtheme-upsell.php:23 ../includes/sketchtheme-upsell.php:42
+msgid "Sketch Themes"
+msgstr "Sketch Themes"
+
+#: ../includes/sketchtheme-upsell.php:46
+msgid "To Activate All Features, Please Upgrade to Pro version!"
+msgstr "To Activate All Features, Please Upgrade to Pro version!"
+
+#: ../includes/sketchtheme-upsell.php:47
+msgid "Upgrade to Pro"
+msgstr "Upgrade to Pro"
+
+#: ../includes/sketchtheme-upsell.php:47
+msgid "Setup Instructions"
+msgstr "Setup Instructions"
+
+#: ../includes/sketchtheme-upsell.php:48
+msgid "Rate Invert Lite"
+msgstr "Rate Invert Lite"
+
+#: ../includes/sketchtheme-upsell.php:49
+msgid "Theme Test Drive"
+msgstr "Theme Test Drive"
+
+#: ../includes/sketchtheme-upsell.php:61
+msgid "Avis Theme"
+msgstr "Avis Theme"
+
+#: ../includes/sketchtheme-upsell.php:65
+msgid "Avis - Business Consulting WordPress Theme"
+msgstr "Avis - Business Consulting WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:68
+msgid ""
+"Avis is beautifully carved to bring a highly professional look to these "
+"sites. Adding to the convenience, Avis also combines some innovative "
+"features to bring about the brilliant site experience."
+msgstr ""
+"Avis is beautifully carved to bring a highly professional look to these "
+"sites. Adding to the convenience, Avis also combines some innovative "
+"features to bring about the brilliant site experience."
+
+#: ../includes/sketchtheme-upsell.php:72
+msgid "Try Avis Free"
+msgstr "Try Avis Free"
+
+#: ../includes/sketchtheme-upsell.php:73 ../includes/sketchtheme-upsell.php:99
+#: ../includes/sketchtheme-upsell.php:125
+#: ../includes/sketchtheme-upsell.php:151
+#: ../includes/sketchtheme-upsell.php:177
+#: ../includes/sketchtheme-upsell.php:201
+#: ../includes/sketchtheme-upsell.php:227
+#: ../includes/sketchtheme-upsell.php:251
+#: ../includes/sketchtheme-upsell.php:276
+#: ../includes/sketchtheme-upsell.php:301
+#: ../includes/sketchtheme-upsell.php:326
+#: ../includes/sketchtheme-upsell.php:351
+#: ../includes/sketchtheme-upsell.php:375
+#: ../includes/sketchtheme-upsell.php:399
+#: ../includes/sketchtheme-upsell.php:423
+#: ../includes/sketchtheme-upsell.php:446
+#: ../includes/sketchtheme-upsell.php:469
+#: ../includes/sketchtheme-upsell.php:493
+msgid "View Demo"
+msgstr "View Demo"
+
+#: ../includes/sketchtheme-upsell.php:74
+msgid "Buy Avis Pro"
+msgstr "Buy Avis Pro"
+
+#: ../includes/sketchtheme-upsell.php:87
+msgid "Connexions Theme"
+msgstr "Connexions Theme"
+
+#: ../includes/sketchtheme-upsell.php:91
+msgid "Connexions- Corporate Business WordPress Theme"
+msgstr "Connexions- Corporate Business WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:94
+msgid ""
+"Connexions is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchTheme.com. Using Connexion theme options any one can easily "
+"customize this theme according to their need. You can use your own Logo, "
+"logo alt text, custom favicon, you can add social links, rss feed to "
+"homepage, you can use own copyright text, you can also insert analytics code "
+"etc. And all this information can be entered using Connexion Theme Options "
+"Panel. You have to just set the content from the Connexion Themes Options "
+"Panel and it'll be up ready to use."
+msgstr ""
+"Connexions is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchTheme.com. Using Connexion theme options any one can easily "
+"customize this theme according to their need. You can use your own Logo, "
+"logo alt text, custom favicon, you can add social links, rss feed to "
+"homepage, you can use own copyright text, you can also insert analytics code "
+"etc. And all this information can be entered using Connexion Theme Options "
+"Panel. You have to just set the content from the Connexion Themes Options "
+"Panel and it'll be up ready to use."
+
+#: ../includes/sketchtheme-upsell.php:98
+msgid "Try Connexions Free"
+msgstr "Try Connexions Free"
+
+#: ../includes/sketchtheme-upsell.php:100
+msgid "Buy Connexions Pro"
+msgstr "Buy Connexions Pro"
+
+#: ../includes/sketchtheme-upsell.php:113
+msgid "LeadSurf Theme"
+msgstr "LeadSurf Theme"
+
+#: ../includes/sketchtheme-upsell.php:117
+msgid "LeadSurf - App Launch WordPress Theme"
+msgstr "LeadSurf - App Launch WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:120
+msgid ""
+"Catching up with trend leading to ultra-modern business style, SketchThemes "
+"brings to you its highly innovative and distinctly appealing Lead Capture "
+"Cum Landing Page WordPress Theme - LeadSurf that serves the users with lead "
+"capture form along with app landing page."
+msgstr ""
+"Catching up with trend leading to ultra-modern business style, SketchThemes "
+"brings to you its highly innovative and distinctly appealing Lead Capture "
+"Cum Landing Page WordPress Theme - LeadSurf that serves the users with lead "
+"capture form along with app landing page."
+
+#: ../includes/sketchtheme-upsell.php:124
+msgid "Try LeadSurf Free"
+msgstr "Try LeadSurf Free"
+
+#: ../includes/sketchtheme-upsell.php:126
+msgid "Buy LeadSurf Pro"
+msgstr "Buy LeadSurf Pro"
+
+#: ../includes/sketchtheme-upsell.php:139
+msgid "InstaAppointment Theme"
+msgstr "InstaAppointment Theme"
+
+#: ../includes/sketchtheme-upsell.php:143
+msgid "InstaAppointment - Responsive Appointment Booking WordPress Theme"
+msgstr "InstaAppointment - Responsive Appointment Booking WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:146
+msgid ""
+"InstaAppointment Corporate Responsive WordPress Theme has all that a big "
+"corporate house, business site, creative agency, engineering, real estate or "
+"high-end spa looks for, in order to deck up their websites with next "
+"generation features and beautiful appearance. Instaapp Corporate Responsive "
+"WordPress Themes is packed with some of the unique features that take your "
+"online presence to altogether new level. Instaapp comes with the dedicated "
+"sections of Latest Projects and Skills Section along with Full Screen "
+"Revolution slider."
+msgstr ""
+"InstaAppointment Corporate Responsive WordPress Theme has all that a big "
+"corporate house, business site, creative agency, engineering, real estate or "
+"high-end spa looks for, in order to deck up their websites with next "
+"generation features and beautiful appearance. Instaapp Corporate Responsive "
+"WordPress Themes is packed with some of the unique features that take your "
+"online presence to altogether new level. Instaapp comes with the dedicated "
+"sections of Latest Projects and Skills Section along with Full Screen "
+"Revolution slider."
+
+#: ../includes/sketchtheme-upsell.php:150
+msgid "Try InstaAppointment Free"
+msgstr "Try InstaAppointment Free"
+
+#: ../includes/sketchtheme-upsell.php:152
+msgid "Buy InstaAppointment Pro"
+msgstr "Buy InstaAppointment Pro"
+
+#: ../includes/sketchtheme-upsell.php:165
+msgid "Eptima Theme"
+msgstr "Eptima Theme"
+
+#: ../includes/sketchtheme-upsell.php:169
+msgid "Eptima - Corporate Responsive WordPress Theme"
+msgstr "Eptima - Corporate Responsive WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:172
+msgid ""
+"Eptima Corporate Responsive WordPress Theme has all that a big corporate "
+"house, business site, creative agency, engineering, real estate or high-end "
+"spa looks for, in order to deck up their websites with next generation "
+"features and beautiful appearance. Eptima Corporate Responsive WordPress "
+"Themes is packed with some of the unique features that take your online "
+"presence to altogether new level. Eptima comes with the dedicated sections "
+"of Latest Projects and Skills Section along with Full Screen Revolution "
+"slider."
+msgstr ""
+"Eptima Corporate Responsive WordPress Theme has all that a big corporate "
+"house, business site, creative agency, engineering, real estate or high-end "
+"spa looks for, in order to deck up their websites with next generation "
+"features and beautiful appearance. Eptima Corporate Responsive WordPress "
+"Themes is packed with some of the unique features that take your online "
+"presence to altogether new level. Eptima comes with the dedicated sections "
+"of Latest Projects and Skills Section along with Full Screen Revolution "
+"slider."
+
+#: ../includes/sketchtheme-upsell.php:176
+msgid "Try Eptima Free"
+msgstr "Try Eptima Free"
+
+#: ../includes/sketchtheme-upsell.php:178
+msgid "Buy Eptima Pro"
+msgstr "Buy Eptima Pro"
+
+#: ../includes/sketchtheme-upsell.php:189
+msgid "Rational Theme"
+msgstr "Rational Theme"
+
+#: ../includes/sketchtheme-upsell.php:193
+msgid "Rational - Impressive One Pager Responsive Business WordPress Theme"
+msgstr "Rational - Impressive One Pager Responsive Business WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:196
+msgid ""
+"Every business requires an approach that shows the logic behind floating the "
+"trade and the exact objective with which the venture is initiated.Adding a "
+"rational approach to every business in the first place, the Rational - One "
+"Pager Responsive Business WordPress Theme certainly promises to better "
+"user's experience."
+msgstr ""
+"Every business requires an approach that shows the logic behind floating the "
+"trade and the exact objective with which the venture is initiated.Adding a "
+"rational approach to every business in the first place, the Rational - One "
+"Pager Responsive Business WordPress Theme certainly promises to better "
+"user's experience."
+
+#: ../includes/sketchtheme-upsell.php:200
+msgid "Try Rational Free"
+msgstr "Try Rational Free"
+
+#: ../includes/sketchtheme-upsell.php:202
+msgid "Buy Rational Pro"
+msgstr "Buy Rational Pro"
+
+#: ../includes/sketchtheme-upsell.php:215
+msgid "Incart Theme"
+msgstr "Incart Theme"
+
+#: ../includes/sketchtheme-upsell.php:219
+msgid "InCart - Responsive WooCommerce WordPress Theme"
+msgstr "InCart - Responsive WooCommerce WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:222
+msgid ""
+"SketchThemes continues the legacy of best multipurpose responsive business "
+"WordPress themes. Here we are gearing up to introduce a new WooCommerce "
+"WordPress theme which keeps it at the top priority for the customers to "
+"proliferate their business. This classy theme is fully WooCommerce "
+"compatible, SEO optimized and fully responsive so forget the fear of screen "
+"sizes, SEO optimization, just go and grab it."
+msgstr ""
+"SketchThemes continues the legacy of best multipurpose responsive business "
+"WordPress themes. Here we are gearing up to introduce a new WooCommerce "
+"WordPress theme which keeps it at the top priority for the customers to "
+"proliferate their business. This classy theme is fully WooCommerce "
+"compatible, SEO optimized and fully responsive so forget the fear of screen "
+"sizes, SEO optimization, just go and grab it."
+
+#: ../includes/sketchtheme-upsell.php:226
+msgid "Try Incart Free"
+msgstr "Try Incart Free"
+
+#: ../includes/sketchtheme-upsell.php:228
+msgid "Buy Incart Pro"
+msgstr "Buy Incart Pro"
+
+#: ../includes/sketchtheme-upsell.php:240
+msgid "Convac Theme"
+msgstr "Convac Theme"
+
+#: ../includes/sketchtheme-upsell.php:244
+msgid "Convac - Responsive Multi Author Blogging Theme"
+msgstr "Convac - Responsive Multi Author Blogging Theme"
+
+#: ../includes/sketchtheme-upsell.php:247
+msgid ""
+"Convac is elegant WordPress theme solely designed for web bloggers. The main "
+"aim of theme is to improve blog's appearance for the end users and making "
+"blog posting a cakewalk task for bloggers. The theme has options and "
+"features which can customize blog as per your user and interest. Design for "
+"bloggers, theme is equipped with integrated features such as- post share, "
+"post like, subscription widget, supports to all post formats and many more."
+msgstr ""
+"Convac is elegant WordPress theme solely designed for web bloggers. The main "
+"aim of theme is to improve blog's appearance for the end users and making "
+"blog posting a cakewalk task for bloggers. The theme has options and "
+"features which can customize blog as per your user and interest. Design for "
+"bloggers, theme is equipped with integrated features such as- post share, "
+"post like, subscription widget, supports to all post formats and many more."
+
+#: ../includes/sketchtheme-upsell.php:250
+msgid "Try Convac Free"
+msgstr "Try Convac Free"
+
+#: ../includes/sketchtheme-upsell.php:252
+msgid "Buy Convac Pro"
+msgstr "Buy Convac Pro"
+
+#: ../includes/sketchtheme-upsell.php:264
+msgid "Foodeez Theme"
+msgstr "Foodeez Theme"
+
+#: ../includes/sketchtheme-upsell.php:268
+msgid "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+msgstr "Foodeez - Multi Cuisine Restaurant WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:271
+msgid ""
+"Foodeez Lite is the the classy theme created for Restaurants and hotel "
+"Industry. To provide a Classy, elegant theme for the hospitality industry "
+"and to fill in the void Foodeez was designed. Every restaurant or hotel "
+"desires to showcase it's cuisines and ambiance in a beautiful manner. This "
+"was not satiated by any prior theme. Hence, Foodeez was designed. Now you "
+"can enjoy a fully Responsive, and Full-width Header Background Image with "
+"floating navigation which gets converted into Persistent Navigation on "
+"scroll down.The Amazing Parallax section allows you to showcase your Super-"
+"Specialty Signature Dishes or your Dish of the Day. In short, if you're a "
+"chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition "
+"expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a "
+"food enthusiast, who want to share the love of food. Then this theme is "
+"Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you "
+"feel wow. The blog page is clean and designed to The Theme is Loaded with "
+"feature which you won't find on any other Lite Themes with this much "
+"precision and quality."
+msgstr ""
+"Foodeez Lite is the the classy theme created for Restaurants and hotel "
+"Industry. To provide a Classy, elegant theme for the hospitality industry "
+"and to fill in the void Foodeez was designed. Every restaurant or hotel "
+"desires to showcase it's cuisines and ambiance in a beautiful manner. This "
+"was not satiated by any prior theme. Hence, Foodeez was designed. Now you "
+"can enjoy a fully Responsive, and Full-width Header Background Image with "
+"floating navigation which gets converted into Persistent Navigation on "
+"scroll down.The Amazing Parallax section allows you to showcase your Super-"
+"Specialty Signature Dishes or your Dish of the Day. In short, if you're a "
+"chef, a cook, cuisine guru, food expert, food fanatic, blogger, nutrition "
+"expert, diet planner, dietitian, recipe sharer, Fine Dining Lover, or just a "
+"food enthusiast, who want to share the love of food. Then this theme is "
+"Perfect for you.Clean, Fresh Looks of this WordPress Theme will make you "
+"feel wow. The blog page is clean and designed to The Theme is Loaded with "
+"feature which you won't find on any other Lite Themes with this much "
+"precision and quality."
+
+#: ../includes/sketchtheme-upsell.php:275
+msgid "Try Foodeez Free"
+msgstr "Try Foodeez Free"
+
+#: ../includes/sketchtheme-upsell.php:277
+msgid "Buy Foodeez Pro"
+msgstr "Buy Foodeez Pro"
+
+#: ../includes/sketchtheme-upsell.php:289
+msgid "Advertica Theme"
+msgstr "Advertica Theme"
+
+#: ../includes/sketchtheme-upsell.php:293
+msgid "Advertica - Creative MultiPurpose WordPress Theme"
+msgstr "Advertica - Creative MultiPurpose WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:296
+#: ../includes/sketchtheme-upsell.php:321
+msgid ""
+"A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. "
+"With easy customization options one can easily setup a perfect business "
+"theme in a few minutes. The striking features of INVERT are Easy Custom "
+"Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, "
+"Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured "
+"Text."
+msgstr ""
+"A Clean, Multipurpose, Responsive Business WordPress Theme by SketchThemes. "
+"With easy customization options one can easily setup a perfect business "
+"theme in a few minutes. The striking features of INVERT are Easy Custom "
+"Admin Options, 3 Custom Page Templates, Parallax Section, Custom Logo, "
+"Custom favicon, Social links Setup, SEO Optimized, Call To Action, Featured "
+"Text."
+
+#: ../includes/sketchtheme-upsell.php:300
+msgid "Try Advertica Free"
+msgstr "Try Advertica Free"
+
+#: ../includes/sketchtheme-upsell.php:302
+msgid "Buy Advertica Pro"
+msgstr "Buy Advertica Pro"
+
+#: ../includes/sketchtheme-upsell.php:314
+msgid "Invert Theme"
+msgstr "Invert Theme"
+
+#: ../includes/sketchtheme-upsell.php:318
+msgid "Invert - Responsive MultiPurpose WordPress Theme"
+msgstr "Invert - Responsive MultiPurpose WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:325
+msgid "Try Invert Free"
+msgstr "Try Invert Free"
+
+#: ../includes/sketchtheme-upsell.php:327
+msgid "Buy Invert Pro"
+msgstr "Buy Invert Pro"
+
+#: ../includes/sketchtheme-upsell.php:339
+msgid "BizNez Theme"
+msgstr "BizNez Theme"
+
+#: ../includes/sketchtheme-upsell.php:343
+msgid "BizNez - Multi Purpose Wordpress Theme"
+msgstr "BizNez - Multi Purpose Wordpress Theme"
+
+#: ../includes/sketchtheme-upsell.php:346
+msgid ""
+"BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and "
+"crispy design. BizNez is modern and flexible enough. It allows you to create "
+"your website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online "
+"store or any other kind of website BizNez will be a good pick for you. With "
+"our advanced admin panel, tons of customizations are possible and that&#39;"
+"ll help you redefine your website&#39;s client value. You can also change "
+"site layout with only a single click. Also, this theme comes with retina "
+"ready feature. You can see great details on any devices screen. Woo Commerce "
+"and RTL languages are also supported with our BizNez theme."
+msgstr ""
+"BizNez is a powerful Responsive Multipurpose WordPress Theme with clean and "
+"crispy design. BizNez is modern and flexible enough. It allows you to create "
+"your website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Business, Portfolio, Corporate, Agency, an online "
+"store or any other kind of website BizNez will be a good pick for you. With "
+"our advanced admin panel, tons of customizations are possible and that&#39;"
+"ll help you redefine your website&#39;s client value. You can also change "
+"site layout with only a single click. Also, this theme comes with retina "
+"ready feature. You can see great details on any devices screen. Woo Commerce "
+"and RTL languages are also supported with our BizNez theme."
+
+#: ../includes/sketchtheme-upsell.php:350
+msgid "Try Biznez Free"
+msgstr "Try Biznez Free"
+
+#: ../includes/sketchtheme-upsell.php:352
+msgid "Buy Biznez Pro"
+msgstr "Buy Biznez Pro"
+
+#: ../includes/sketchtheme-upsell.php:364
+msgid "Analytical Theme"
+msgstr "Analytical Theme"
+
+#: ../includes/sketchtheme-upsell.php:368
+msgid "Analytical Full Width Responsive Wordpress Theme"
+msgstr "Analytical Full Width Responsive Wordpress Theme"
+
+#: ../includes/sketchtheme-upsell.php:371
+msgid ""
+"Analytical is a full width WordPress theme built especially for "
+"photographers and others who want to feature more graphics on their website. "
+"This theme features a full width background slider which is highly "
+"customizable and totally responsive."
+msgstr ""
+"Analytical is a full width WordPress theme built especially for "
+"photographers and others who want to feature more graphics on their website. "
+"This theme features a full width background slider which is highly "
+"customizable and totally responsive."
+
+#: ../includes/sketchtheme-upsell.php:374
+msgid "Try Analytical Free"
+msgstr "Try Analytical Free"
+
+#: ../includes/sketchtheme-upsell.php:376
+msgid "Buy Analytical Pro"
+msgstr "Buy Analytical Pro"
+
+#: ../includes/sketchtheme-upsell.php:388
+msgid "BizStudio Theme"
+msgstr "BizStudio Theme"
+
+#: ../includes/sketchtheme-upsell.php:392
+msgid "BizStudio Full Width Responsive Wordpress Theme"
+msgstr "BizStudio Full Width Responsive Wordpress Theme"
+
+#: ../includes/sketchtheme-upsell.php:395
+msgid ""
+"Invert is a Simple, Minimal, Responsive, One Click Install, Beautiful and "
+"Elegent WordPress Theme. Along with the elegent design the theme is highly "
+"flexible and customizable with easy to use Admin Panel Options. From a wide "
+"range of options some key options are custom two different layout "
+"option(full width and with sidebar), 5 widget areas, custom follow us and "
+"contact widget, Logo, logo alt text, custom favicon, social links, rss feed "
+"button, custom copyright text and many more. Also it is compitable with "
+"various popular plugins like All in One SEO Pack, WP Super Cache, Contact "
+"Form 7 etc. It is translation ready as well."
+msgstr ""
+"Invert is a Simple, Minimal, Responsive, One Click Install, Beautiful and "
+"Elegent WordPress Theme. Along with the elegent design the theme is highly "
+"flexible and customizable with easy to use Admin Panel Options. From a wide "
+"range of options some key options are custom two different layout "
+"option(full width and with sidebar), 5 widget areas, custom follow us and "
+"contact widget, Logo, logo alt text, custom favicon, social links, rss feed "
+"button, custom copyright text and many more. Also it is compitable with "
+"various popular plugins like All in One SEO Pack, WP Super Cache, Contact "
+"Form 7 etc. It is translation ready as well."
+
+#: ../includes/sketchtheme-upsell.php:398
+msgid "Try BizStudio Lite"
+msgstr "Try BizStudio Lite"
+
+#: ../includes/sketchtheme-upsell.php:400
+msgid "Buy BizStudio Pro"
+msgstr "Buy BizStudio Pro"
+
+#: ../includes/sketchtheme-upsell.php:412
+msgid "Irex Theme"
+msgstr "Irex Theme"
+
+#: ../includes/sketchtheme-upsell.php:416
+msgid "Irex Full Width Portfolio Wordpress Theme"
+msgstr "Irex Full Width Portfolio Wordpress Theme"
+
+#: ../includes/sketchtheme-upsell.php:419
+msgid ""
+"Irex is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchThemes.com. Using Irex theme options any one can easily customize "
+"this theme according to their need. You can use your own Logo, logo alt "
+"text, custom favicon, you can add social links, rss feed to homepage, you "
+"can use own copyright text etc. And all this information can be entered "
+"using Irex Theme Options Panel. You have to just set the content from the "
+"Irex  Themes Options Panel and it will be up ready to use."
+msgstr ""
+"Irex is a simple, minimal, responsive, easy to use, one click install, "
+"beautiful and Elegent WordPress Theme with Easy Custom Admin Options Created "
+"by SketchThemes.com. Using Irex theme options any one can easily customize "
+"this theme according to their need. You can use your own Logo, logo alt "
+"text, custom favicon, you can add social links, rss feed to homepage, you "
+"can use own copyright text etc. And all this information can be entered "
+"using Irex Theme Options Panel. You have to just set the content from the "
+"Irex  Themes Options Panel and it will be up ready to use."
+
+#: ../includes/sketchtheme-upsell.php:422
+msgid "Try Irex Lite"
+msgstr "Try Irex Lite"
+
+#: ../includes/sketchtheme-upsell.php:424
+msgid "Buy Irex Pro"
+msgstr "Buy Irex Pro"
+
+#: ../includes/sketchtheme-upsell.php:436
+msgid "Fullscreen Theme"
+msgstr "Fullscreen Theme"
+
+#: ../includes/sketchtheme-upsell.php:440
+msgid "FullScreen - OnePager Responsive WordPress Theme"
+msgstr "FullScreen - OnePager Responsive WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:443
+msgid ""
+"FullScreen is clean, multipurpose and elegant WordPress theme with fully "
+"responsive layout. Theme is suited for all photographers, creative, business "
+"and portfolio websites. Theme includes lots of features like full-screen "
+"slider, modular homepage, layout shortcodes and more. With our advanced "
+"admin panel, tons of customizations are possible and that will help you "
+"redefine your website client value."
+msgstr ""
+"FullScreen is clean, multipurpose and elegant WordPress theme with fully "
+"responsive layout. Theme is suited for all photographers, creative, business "
+"and portfolio websites. Theme includes lots of features like full-screen "
+"slider, modular homepage, layout shortcodes and more. With our advanced "
+"admin panel, tons of customizations are possible and that will help you "
+"redefine your website client value."
+
+#: ../includes/sketchtheme-upsell.php:447
+msgid "Buy FullScreen Pro"
+msgstr "Buy FullScreen Pro"
+
+#: ../includes/sketchtheme-upsell.php:459
+msgid "Timeliner Theme"
+msgstr "Timeliner Theme"
+
+#: ../includes/sketchtheme-upsell.php:463
+msgid "Timeliner - Minimal Ultra Responsive WordPress Theme"
+msgstr "Timeliner - Minimal Ultra Responsive WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:466
+msgid ""
+"Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, "
+"clean, modern and highly customizable theme. It allows you to create their "
+"website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of "
+"website Timeliner will be a good pick for you. With our advanced admin "
+"panel, tons of customizations are possible and that will help you redefine "
+"your website&#39;s client value. Also, this theme comes with retina ready "
+"feature. You can see great details on any devices screen."
+msgstr ""
+"Timeliner is a premier timeline theme for WordPress. Timeliner is a minimal, "
+"clean, modern and highly customizable theme. It allows you to create their "
+"website around any niche without the need of any complicated HTML code "
+"knowledge. Be it a Blog, Portfolio, Corporate, Agency, any other kind of "
+"website Timeliner will be a good pick for you. With our advanced admin "
+"panel, tons of customizations are possible and that will help you redefine "
+"your website&#39;s client value. Also, this theme comes with retina ready "
+"feature. You can see great details on any devices screen."
+
+#: ../includes/sketchtheme-upsell.php:470
+msgid "Buy Timeliner Pro"
+msgstr "Buy Timeliner Pro"
+
+#: ../includes/sketchtheme-upsell.php:482
+msgid "Sketchmini Theme"
+msgstr "Sketchmini Theme"
+
+#: ../includes/sketchtheme-upsell.php:486
+msgid "SketchMini Free Responsive WordPress Theme"
+msgstr "SketchMini Free Responsive WordPress Theme"
+
+#: ../includes/sketchtheme-upsell.php:489
+msgid ""
+"SketchMini is a Responsive WordPress Theme Free to use with a GPL. "
+"SketchMini has got great features and awesome backend to make use of the "
+"available features in the theme. You dont need to be an expert to use this "
+"SketchMini theme. SketchMini can act as a great base theme to create any "
+"great website."
+msgstr ""
+"SketchMini is a Responsive WordPress Theme Free to use with a GPL. "
+"SketchMini has got great features and awesome backend to make use of the "
+"available features in the theme. You dont need to be an expert to use this "
+"SketchMini theme. SketchMini can act as a great base theme to create any "
+"great website."
+
+#: ../includes/sketchtheme-upsell.php:492
+msgid "Download Sketchmini"
+msgstr "Download Sketchmini"
+
+#: ../invert-front-page.php:71
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sorry, no posts matched your criteria."
+
+#: ../invert-front-page.php:113 ../invert-front-page.php:115
+#: ../invert-front-page.php:117 ../invert-front-page.php:119
+#: ../invert-front-page.php:121
+msgid "Client Logo"
+msgstr "Client Logo"
+
+#: ../page.php:54 ../template-left-sidebar.php:51
+msgid "Page Does Not Exist"
+msgstr "Page Does Not Exist"
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../single.php:74
+msgid "&larr; %link"
+msgstr ""
+
+#: ../single.php:77
+msgid "%link &rarr;"
+msgstr ""
+
+#: ../single.php:91 ../template-fullwidth.php:41
+msgid "Not Found"
+msgstr "Not Found"
+
+#: ../tag.php:20
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#~ msgid "Select breadcrumb text color. No color selected by default."
+#~ msgstr "Select breadcrumb text color. No color selected by default."
